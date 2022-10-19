@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Angelrich/bootstrap5.git"
+    "url": "git+https://github.com/Angelrich/bootstrap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Angelrich/bootstrap5/issues"
+    "url": "https://github.com/Angelrich/bootstrap/issues"
   },
-  "homepage": "https://github.com/Angelrich/bootstrap5#readme",
+  "homepage": "https://github.com/Angelrich/bootstrap#readme",
   "dependencies": {
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1"
