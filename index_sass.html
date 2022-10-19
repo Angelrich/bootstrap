@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sass</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/main.min.css"
+</head>
+<body>
+  <!-- Header Area -->
+  <header id="header">
+    <!--Top Header-->
+    <section id="top-header" class="bg-primary py-3 d-none d-md-block text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pt-2">
+            <h6><i class="bi bi-phone"></i> +1 569 875 6656</h6>
+          </div>
+          <div class="col-md-4 pt-2">
+            <h6><i class="bi bi-envelope"></i> user@domain.com</h6>
+          </div>
+          <div class="col-md-4 text-end">
+            <a class="btn btn-primary text-white" style="background-color: #3b5998" href=""><i class="bi bi-facebook"></i></a>
+            <a class="btn btn-primary text-white" style="background-color: #80a4f1" href=""><i class="bi bi-twitter"></i></a>
+            <a class="btn btn-primary text-white" style="background-color: #ee51f3" href=""><i class="bi bi-instagram"></i></a>
+            <a class="btn btn-primary text-white" style="background-color: #f60616" href=""><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 scroll-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Learn Data Analytics</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span></button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a href="#start-area" class="nav-link">Home</a>
+              <li class="nav-item"><a href="#service" class="nav-link">About</a>
+              <li class="nav-item"><a href="#analysis" class="nav-link">Service</a>
+              <li class="nav-item"><a href="#team" class="nav-link">Location</a>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Starter Area-->
+  <section id="start-area" class="py-5 pt-4 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Let's learn Data Analytics</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat, a beatae vitae harum totam.</p>
+          <a href="" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#join">Join Now</a>
+
+          <!--Modal section-->
+          <div id="join" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark">Join our course</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Fill this form</p>
+                  <div class="mb-3">
+                  <label for="form-label">Name</label>
+                  <input type="text" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                  <label for="name">Phone</label>
+                  <input type="text" class="form-control" placeholder="Enter your phone number">
+                </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary text-white">Submit</button>
+                    <button type="button" class="btn btn-secondary text-white" data-bs-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img src="img/data.svg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--Service Area-->
+  <section id="service" class="py-5">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-md-8 offset-md-2 text-center">
+          <h2>Our Services</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia, totam, inventore repudiandae quidem eaque nam laboriosam mollitia nobis 
+            laborum itaque sed consequatur architecto soluta facere ducimus rem. Iure, totam?</p>
+        </div>
+      </div>
+    
+        <div class="row">
+          <div class="col-md-4 text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-gear m-auto d-block btn btn-outline-secondary pt-2 my-3"></i>
+                <h4>Easy to install</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad.</p>
+                <a href="" class="btn btn-secondary text-white">Read More</a>
+              </div>
+            </div>
+          </div>
+
+              <div class="col-md-4 text-center mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="bi bi-bar-chart m-auto d-block btn btn-outline-secondary pt-2 my-3"></i>
+                    <h4>Frequent Updates</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad.</p>
+                    <a href="" class="btn btn-secondary text-white">Read More</a>
+                  </div>
+                </div>
+              </div>
+            
+                  <div class="col-md-4 text-center">
+                    <div class="card">
+                      <div class="card-body">
+                        <i class="bi bi-people m-auto d-block btn btn-outline-secondary pt-2 my-3"></i>
+                        <h4>Community</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ad.</p>
+                        <a href="" class="btn btn-secondary text-white">Read More</a>
+                      </div>
+                    </div>
+                  </div>           
+        </div>
+      
+    </div>
+
+  </section>
+
+  <!--Analysis Area-->
+  <section id="analysis" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 pt-5">
+          <img src="img/pie-chart.svg" alt="" class="img-fluid mb-3">
+        </div>
+        <div class="col-md-6 align-self-center">
+          <h3>Growth of data analytics in 2022</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, vitae! Est rem, necessitatibus eaque, dolorum maxime 
+            repellendus facilis ratione, at ipsum molestias sequi 
+            excepturi culpa nam repellat animi accusamus exercitationem.</p>
+          <a href="" class="btn btn-secondary text-white">Know More</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--Team Area-->
+  <section id="team" class="py-5">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col-md-8 offset-md-2">
+          <h2>Our Team</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Repudiandae iure, omnis veniam unde accusamus non nobis enim amet optio blanditiis repellat, 
+            illo id est, assumenda laudantium ratione eos ipsa officiis!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="img/lady1.jpg" alt="" class="img-fluid mb-3">
+              <h4>Jessica Ann</h4>
+              <p>Data Analyst</p>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-facebook"></i></a>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-twitter"></i></a>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="img/lady2.jpg" alt="" class="img-fluid mb-3">
+              <h4>Ruth Liu</h4>
+              <p>AI Expert</p>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-facebook"></i></a>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-twitter"></i></a>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="img/lady1.jpg" alt="" class="img-fluid mb-3">
+              <h4>Jamieson</h4>
+              <p>Project Manager</p>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-facebook"></i></a>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-twitter"></i></a>
+              <a href="" class="btn btn-secondary text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--FAQ Area-->
+  <section id="faq" class="bg-light py-5">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="img/faq.svg" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-7 align-self-center pt-3">
+        <h2>FAQ</h2>
+        <div class="accordion mt-3">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc-1">
+                Question 1
+              </button>
+            <div id="acc-1" class="accordion-collapse collapse">
+              <div class="accordion-body">           
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus repellendus voluptate id quos nemo sed commodi recusandae culpa molestias dolore, 
+                neque temporibus doloremque rem sapiente odio cum nobis impedit sunt fuga natus? Repudiandae, 
+                in ipsum! Accusantium ullam molestias corrupti.</p>
+              </div>
+            </div>          
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc-2">
+                  Question 2
+                </button>
+              <div id="acc-2" class="accordion-collapse collapse">
+                <div class="accordion-body">           
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus repellendus voluptate id quos nemo sed commodi recusandae culpa molestias dolore, 
+                  neque temporibus doloremque rem sapiente odio cum nobis impedit sunt fuga natus? Repudiandae, 
+                  in ipsum! Accusantium ullam molestias corrupti.</p>
+                </div>
+              </div>          
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc-3">
+                    Question 3
+                  </button>
+                <div id="acc-3" class="accordion-collapse collapse">
+                  <div class="accordion-body">           
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A delectus repellendus voluptate id quos nemo sed commodi recusandae culpa molestias dolore, 
+                    neque temporibus doloremque rem sapiente odio cum nobis impedit sunt fuga natus? Repudiandae, 
+                    in ipsum! Accusantium ullam molestias corrupti.</p>
+                  </div>
+                </div>          
+                </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!--Contact Area-->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, error.</p>
+          <form action="" class="py-3 text-start">
+            <div class="row mb-3">
+              <div class="col-md-6">
+                  <input type="text" class="form-control mb-3" placeholder="Your Name">
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="subject">
+            </div>
+            <div class="mb-3">
+              <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="message"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary text-white">Send Message</button>
+          </form>
+        </div>
+        
+        <div class="col-md-5 mt-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369103.66942967207!2d-79.65825510583217!3d43.718395326949725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1666144871141!5m2!1sen!2sca"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer Area-->
+  <footer class="pt-4 pb-2 bg-secondary text-white text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright &copy; 2022 All Right Reserved</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
